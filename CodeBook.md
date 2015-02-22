@@ -50,29 +50,32 @@ Estimated Time domain accelerometer gravity signals  in the X, Y and Z direction
 
 Estimated Time domain linear body acceleration resulting in the Jerk signals  in the X, Y and Z directions - their mean and standard deviation:
 
-|   Column  |  Name |    Column  |  Name |
-|----|---|--|---|----|
+|   Column  |  Name |    Column  |  Name 
+|----|---|--|---|
 |9| tBodyAccJerk.mean.X	|		62| tBodyAccJerk.std.X|
 |10| tBodyAccJerk.mean.Y   |      63| tBodyAccJerk.std.Y|
 |11| tBodyAccJerk.mean.Z    |     64| tBodyAccJerk.std.Z|
 
 Estimated Time domain gyroscope signals  in the X, Y and Z directions - their mean and standard deviation:
-|   Column  |  Name |    Column  |  Name |
-|----|---|--|---|----|
+
+|   Column  |  Name |    Column  |  Name 
+|----|---|--|---|
 |12| tBodyGyro.mean.X	|			65 |tBodyGyro.std.X|
 |13 |tBodyGyro.mean.Y   |          66| tBodyGyro.std.Y|
 |14| tBodyGyro.mean.Z   |          67 |tBodyGyro.std.Z|
 
 Estimated Time domain angular velocity resulting in the Jerk signals in the X, Y and Z directions - their mean and standard deviation:
-|   Column  |  Name |    Column  |  Name |
-|----|---|--|---|----|
+
+|   Column  |  Name |    Column  |  Name 
+|----|---|--|---|
 |15| tBodyGyroJerk.mean.X	|	68| tBodyGyroJerk.std.X|
 |16| tBodyGyroJerk.mean.Y  |     69 |tBodyGyroJerk.std.Y|
 |17| tBodyGyroJerk.mean.Z   |    70| tBodyGyroJerk.std.Z |
 
 Estimated Time domain magnitude of the above three-dimensional signals was calculated using the Euclidean norm - their mean and standard deviation:
-|   Column  |  Name |    Column  |  Name |
-|----|---|--|---|----|
+
+|   Column  |  Name |    Column  |  Name 
+|----|---|--|---|
 |18| tBodyAccMag.mean			|		71| tBodyAccMag.std|
 |19| tGravityAccMag.mean       |          72| tGravityAccMag.std|
 |20| tBodyAccJerkMag.mean    |          73| tBodyAccJerkMag.std|
@@ -81,7 +84,7 @@ Estimated Time domain magnitude of the above three-dimensional signals was calcu
 
 Fast Fourier Transform (FFT) was applied to some of these signals producing the frequency domain signals:
 
-|   Column  |  Name | |    Column  |  Name | |    Column  |  Name | 
+|   Column  |  Name |   Column  |  Name |     Column  |  Name 
 |----|---|----|---|----|---|
 |23| fBodyAcc.mean.X			|			76| fBodyAcc.std.X	|	26| fBodyAcc.meanFreq.X            |     
 |24| fBodyAcc.mean.Y           |            77| fBodyAcc.std.Y	|	27 |fBodyAcc.meanFreq.Y|
@@ -104,13 +107,16 @@ Fast Fourier Transform (FFT) was applied to some of these signals producing the 
 |47| fBodyBodyGyroJerkMag.mean	|	88| fBodyBodyGyroJerkMag.std	|	48 |fBodyBodyGyroJerkMag.meanFreq|
 
 Finally additional vectors obtained by averaging the signals in a signal window sample, are denoted by the angle prefix:
-|49| angle.tBodyAccMean.gravity
-|50| angle.tBodyAccJerkMean.gravityMean
-|51| angle.tBodyGyroMean.gravityMean
-|52| angle.tBodyGyroJerkMean.gravityMean
-|53| angle.X.gravityMean
-|54| angle.Y.gravityMean
-|55| angle.Z.gravityMean
+
+|   Column  |  Name 
+|----|---|
+|49| angle.tBodyAccMean.gravity|
+|50| angle.tBodyAccJerkMean.gravityMean|
+|51| angle.tBodyGyroMean.gravityMean|
+|52| angle.tBodyGyroJerkMean.gravityMean|
+|53| angle.X.gravityMean|
+|54| angle.Y.gravityMean|
+|55| angle.Z.gravityMean|
 
 
 

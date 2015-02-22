@@ -33,15 +33,15 @@ The resulting data set from running run_analysis.R has the following variables, 
 |2 |subject | subject performing the activity |
  
  Estimated Time domain accelerometer body signals in the X, Y and Z directions - their mean and standard deviation:
-|   Column  |  Name |-|    Column  |  Name |
-|----|---|--|---|----|
+|   Column  |  Name |    Column  |  Name |
+|----|---|---|----|
 |3| tBodyAcc.mean.X		|		56 |tBodyAcc.std.X|
 |4| tBodyAcc.mean.Y     |        57| tBodyAcc.std.Y |
 |5 |tBodyAcc.mean.Z     |        58| tBodyAcc.std.Z|
 
 Estimated Time domain accelerometer gravity signals  in the X, Y and Z directions - their mean and standard deviation: 
 |   Column  |  Name |    Column  |  Name |
-|----|---|--|---|----|
+|----|---|--|---|
 |6 |tGravityAcc.mean.X	|		59| tGravityAcc.std.X|
 |7 |tGravityAcc.mean.Y    |      60| tGravityAcc.std.Y |
 |8| tGravityAcc.mean.Z     |     61| tGravityAcc.std.Z|

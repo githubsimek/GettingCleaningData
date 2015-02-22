@@ -67,6 +67,8 @@ load_data <- function ( which_data ) {
         names(fact) <- gsub("[\\.]{2,3}","\\.", names(fact)) 
         # Remove the dot at the end of the column name
         names(fact) <- gsub("\\.$", "", names(fact))
+        # Make them all lower case so it is easy to type them in
+        names(fact) <- tolower(names(fact))
         
         # 4. Joins all three data frames
         

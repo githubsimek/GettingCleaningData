@@ -3,7 +3,7 @@ Getting and Cleaning Data - Coursera - Johns Hopkins
 Professor: Jeff Leek, PhD
 Date: February 22, 2015
 
-File: CodeBook.md for run_analysis.R
+CodeBook.md for run_analysis.R
 ==================================================================
 
 The script loads 3 files - activity, subject, fact - for each data set train and test as described in the README.md file.
@@ -27,8 +27,10 @@ contains the mean by activity and subject, and has only  180 rows.
 
 The resulting data set from running run_analysis.R has the following variables, with their respective column position:
 
-1 activity: activity label
-2 subject: subject performing the activity
+|   Column  |  Name |  Description
+|----|---|----|
+|1| activity | activity label|
+|2 |subject | subject performing the activity |
  
  Estimated Time domain accelerometer body signals in the X, Y and Z directions - their mean and standard deviation:
 3 tBodyAcc.mean.X				56 tBodyAcc.std.X

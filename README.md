@@ -3,7 +3,7 @@ Getting and Cleaning Data - Coursera - Johns Hopkins
 Professor: Jeff Leek, PhD
 Date: February 22, 2015
 
-File: README.md
+README.md
 ==================================================================
 
 The purpose of this project is to collect, work with, and clean a data set. The goal is to
@@ -23,10 +23,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 In order to understand the project review thoroughly the following files in the unzipped directory:
 -------------------------------------------------------------------------------------------------------------------
 
-README.txt 
-features_info.txt: Shows information about the variables used on the feature vector (fact data frame)
-features.txt: : List of all column names for the feature vector (fact data frame)
-activity_labels.txt: Maps the activity codes with the activity labels
+- README.txt 
+- features_info.txt: Shows information about the variables used on the feature vector (fact data frame)
+- features.txt: : List of all column names for the feature vector (fact data frame)
+- activity_labels.txt: Maps the activity codes with the activity labels
 
 In this implementation we have *not* used the "Inertial Signals" subdirectories data.
   
@@ -62,8 +62,7 @@ Implementation of run_analysis.R script
  
  Unzipping the data set reveals that the project data is under directory "UCI HAR Dataset"
  
- ----- VERY IMPORTANT -----------------------------------------------------------------------------------
- For the run_analysis.R script to work, set your R tool working directory to ../"UCI HAR Dataset"
+ VERY IMPORTANT : For the run_analysis.R script to work, set your R tool working directory to ../"UCI HAR Dataset"
 ------------------------------------------------------------------------------------------------------------------
 
 
@@ -74,9 +73,9 @@ Implementation of run_analysis.R script
        3. Uses descriptive activity names to name the activities in the data set.
        4. Appropriately labels the data set with descriptive variable names.
        5. Creates a tidy data set for analysis
-       6. From the data set in step 5, creates a second, independent tidy data set with the
+       6. From the data set in step V, creates a second, independent tidy data set with the
           average of each variable for each activity and each subject.
-       7. Save data set in step 6 to a text file
+       7. Save data set in step VI to a text file
 	   
 For more details on the implementation see the CodeBook.md file.  
 	   
